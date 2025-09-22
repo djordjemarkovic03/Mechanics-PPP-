@@ -1,0 +1,100 @@
+object LoginForm: TLoginForm
+  Left = 0
+  Top = 0
+  ActiveControl = edtKorisnickoIme
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 347
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF09B04E
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object edtKorisnickoIme: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 88.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtLozinka: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 88.000000000000000000
+    Position.Y = 241.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 88.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'PRIJAVITE SE'
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Position.X = 88.000000000000000000
+    Position.Y = 119.000000000000000000
+    Text = 'Unesite username:'
+    TabOrder = 5
+  end
+  object Label3: TLabel
+    Position.X = 88.000000000000000000
+    Position.Y = 216.000000000000000000
+    Text = 'Unesite sifru:'
+    TabOrder = 6
+  end
+  object lblPoruka: TLabel
+    Position.X = 116.000000000000000000
+    Position.Y = 296.000000000000000000
+    Text = 'lblPoruka'
+    TabOrder = 7
+  end
+  object btnLogin: TButton
+    Position.X = 88.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Prijavi se'
+    OnClick = btnLoginClick
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\a' +
+        'utoservis_zalihe.db'
+      'LockingMode=Normal'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 224
+    Top = 424
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 96
+    Top = 416
+  end
+end

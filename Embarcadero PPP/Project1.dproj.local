@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.338,=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.684,=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit3.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.974,C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit5.pas=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.604,C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit5.pas=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.180,=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.965,=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.604,C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit5.fmx=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit4.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.974,C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit5.fmx=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.930,=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.024,=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.268,C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Ognjen\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

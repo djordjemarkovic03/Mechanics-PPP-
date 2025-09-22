@@ -1,0 +1,151 @@
+object AdministracijaForm: TAdministracijaForm
+  Left = 0
+  Top = 0
+  Caption = 'TAdministracijaForm '
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Color = xFF0BDD0B
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 41.000000000000000000
+    Size.Width = 281.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'sifra dela'
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 111.000000000000000000
+    Text = 'naziv dela'
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 176.000000000000000000
+    Text = 'kolicina'
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 241.000000000000000000
+    Text = 'minimalna kolicina'
+    TabOrder = 10
+  end
+  object lblNapomena: TLabel
+    Position.X = 208.000000000000000000
+    Position.Y = 437.000000000000000000
+    Text = 'lblNapomena'
+    Visible = False
+    TabOrder = 12
+  end
+  object btnSacuvaj: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 369.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Sacuvaj'
+    OnClick = btnSacuvajClick
+  end
+  object btnNazad: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 450.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = 'Nazad'
+    OnClick = btnNazadClick
+  end
+  object btnNoviUnos: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 327.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = 'Novi unos'
+    OnClick = btnNoviUnosClick
+  end
+  object edtKolicina: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 8.000000000000000000
+    Position.Y = 201.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtMinKolicina: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 8.000000000000000000
+    Position.Y = 266.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtNazivDela: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 8.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtSifraDela: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 8.000000000000000000
+    Position.Y = 71.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnObrisi: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 407.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    Text = 'Obrisi'
+    OnClick = btnObrisiClick
+  end
+  object lvDelovi: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Right
+    Position.X = 336.000000000000000000
+    Position.Y = 41.000000000000000000
+    Size.Width = 304.000000000000000000
+    Size.Height = 439.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    OnItemClick = lvDeloviItemClick
+  end
+  object Label5: TLabel
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'UPISIVANJE I BRISANJE'
+    TabOrder = 16
+  end
+  object FDQueryAdmin: TFDQuery
+    Connection = LoginForm.FDConnection1
+    Left = 472
+    Top = 440
+  end
+end
